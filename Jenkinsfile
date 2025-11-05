@@ -4,7 +4,7 @@ pipeline {
 <<<<<<< HEAD
 =======
     tools {
-        nodejs "Jemimah's NodeJS"
+        nodejs "Nodejs"
     }
 
     stages {
