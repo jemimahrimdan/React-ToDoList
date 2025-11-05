@@ -74,7 +74,7 @@ EOF
             emailext(
                 subject: "FAILED: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
                 body: "The build ${env.BUILD_URL} failed. Please check the logs.",
-                to: "jemimahrimdan0gmail.com"
+                to: "jemimahrimdan0@gmail.com"
             )
         }
     }
